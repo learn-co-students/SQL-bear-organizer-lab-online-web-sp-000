@@ -20,7 +20,11 @@ end
 
 def selects_most_prominent_color_and_returns_with_count
   # "SELECT MAX, COUNT (color) FROM bears;"
-  "SELECT * MAX color FROM bears DESC LIMIT 1;"
+  "SELECT COUNT (color) FROM bears ORDER BY COUNT;"
+#   SELECT MAX (color) 
+# FROM (SELECT AVG,COUNT(agent_code) mycount
+# FROM orders
+# GROUP BY agent_code);
 
 end
 
