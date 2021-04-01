@@ -9,6 +9,7 @@ describe 'querying the bears table' do
     File.open('lib/sql', 'w'){ |f| f.truncate(0) }
   end
 
+
   it 'selects all of the female bears and returns their name and age' do
     expect(@db.execute(selects_all_female_bears_return_name_and_age)).to eq([["Tabitha", 6],["Melissa", 13], ["Wendy", 6]])
   end
@@ -38,6 +39,7 @@ describe 'querying the bears table' do
   end
 
   it 'selects the bear that killed Tim' do
+    # binding.pry
     expect(@db.execute(selects_bear_that_killed_Tim)).to eq([[8, nil, 20, "M", "black", "aggressive", 0]])
   end
 end
