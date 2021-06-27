@@ -1,8 +1,8 @@
-INSERT INTO bears VALUES ("Mr Chocolate", 7, "Male", "Brown", "Angry", TRUE);
-INSERT INTO bears VALUES ("Rowdy", 8, "Male", "Black", "Hyper", FALSE);
-INSERT INTO bears VALUES ("Tabitha", 12, "Female", "White", "Calm", TURE);
-INSERT INTO bears VALUES ("Sergeant Brown", 10, "Male", "Brown", "Happy", FALSE);
-INSERT INTO bears VALUES ("Melissa", 5, "Female", "Grey", "Sad", FALSE);
-INSERT INTO bears VALUES ("Mr Chocolate", 7, "Male", "Brown", "Angry", FALSE);
-INSERT INTO bears VALUES ("Wendy", 16, "Female", "Pink", "Silly", TRUE);
-INSERT INTO bears VALUES (NULL, 7, "Male", "Brown", "Curious", TRUE);
+INSERT INTO bears VALUES (1, "Mr Chocolate", 7, "Male", "Brown", "Angry", TRUE);
+INSERT INTO bears VALUES (2, "Rowdy", 8, "Male", "Black", "Hyper", FALSE);
+INSERT INTO bears VALUES (3, "Tabitha", 12, "Female", "White", "Calm", TRUE);
+INSERT INTO bears VALUES (4, "Sergeant Brown", 10, "Male", "Brown", "Happy", FALSE);
+INSERT INTO bears VALUES (5, "Melissa", 5, "Female", "Grey", "Sad", FALSE);
+INSERT INTO bears VALUES (6, "Mr Chocolate", 7, "Male", "Brown", "Angry", FALSE);
+INSERT INTO bears VALUES (7, "Wendy", 16, "Female", "Pink", "Silly", TRUE);
+INSERT INTO bears VALUES (8, NULL, 7, "Male", "Brown", "Curious", TRUE);
